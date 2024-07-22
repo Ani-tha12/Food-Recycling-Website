@@ -1,0 +1,29 @@
+.head
+{
+    background-color: lightblue;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+}
+ul{
+    list-style-type: none;
+    padding:0;
+    text-align:center;
+    font-size:larger;
+}
+nav ul li{
+    display:inline-block;
+    margin:0 15px;
+}
+body
+{
+   background-color:#37B7C3;
+}
+.button
+{
+    color:white;
+    background-color:chocolate;
+    border:
+
+}

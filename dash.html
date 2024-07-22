@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Recycling Optimization Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.dashboard {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #333;
+}
+
+.overview-panel, .analytics, .maps, .performance-metrics, .resources, .alerts-notifications, .feedback-suggestions {
+    margin-bottom: 30px;
+}
+
+.card, .chart, .map, .resource, .alert {
+    background: #f9f9f9;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.card h2, .chart h2, .map h2, .resource h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #444;
+}
+
+.card p, .chart img, .map img, .resource p {
+    margin-top: 10px;
+}
+
+.chart img, .map img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.analytics, .maps {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.analytics .chart, .maps .map {
+    flex: 1;
+    min-width: 280px;
+}
+
+.resources {
+    background: #e7f0f6;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.feedback-suggestions form {
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback-suggestions textarea {
+    resize: none;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.feedback-suggestions button {
+    padding: 10px;
+    background: #5cb85c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.feedback-suggestions button:hover {
+    background: #4cae4c;
+}
+
+    </style>
+</head>
+<body>
+    <div class="dashboard">
+        <!-- Header Section -->
+        <header>
+            <h1>Food Recycling Optimization Dashboard</h1>
+        </header>
+        
+        <!-- Overview Panel -->
+        <section class="overview-panel">
+            <div class="card">
+                <h2>Total Food Waste Recycled</h2>
+                <p>1,200 kg</p>
+            </div>
+            <div class="card">
+                <h2>Food Waste Diversion Rate</h2>
+                <p>65%</p>
+            </div>
+            <div class="card">
+                <h2>Comparison to Goals</h2>
+                <p>80% Achieved</p>
+            </div>
+        </section>
+        
+        <!-- Detailed Analytics -->
+        <section class="analytics">
+            <div class="chart">
+                <h2>Food Waste Breakdown</h2>
+                <img src="food.jfif" alt="Food Waste Breakdown Chart">
+            </div>
+            <div class="chart">
+                <h2>Source of Food Waste</h2>
+                <img src="waste.png" alt="Source of Food Waste Chart">
+            </div>
+            <div class="chart">
+                <h2>Time Trends</h2>
+                <img src="graph.png" alt="Time Trends Chart">
+            </div>
+            <div class="chart">
+                <h2>Seasonal Variations</h2>
+                <img src="seasonal.jpg" alt="Seasonal Variations Chart">
+            </div>
+        </section>
+        
+        <!-- Interactive Maps -->
+        <section class="maps">
+            <div class="map">
+                <h2>Recycling Locations</h2>
+                <img src="recycle.jpg" alt="Recycling Locations Map">
+            </div>
+            <div class="map">
+                <h2>Heat Maps</h2>
+                <img src="map.ppm" alt="Heat Maps">
+            </div>
+            <div class="map">
+                <h2>Service Coverage</h2>
+                <img src="service.webp" alt="Service Coverage Map">
+            </div>
+        </section>
+        
+        <!-- Performance Metrics -->
+        <section class="performance-metrics">
+            <div class="card">
+                <h2>Recycling Efficiency</h2>
+                <p>85%</p>
+            </div>
+            <div class="card">
+                <h2>Cost vs. Savings</h2>
+                <p>$5,000 Savings</p>
+            </div>
+            <div class="card">
+                <h2>Participation Rate</h2>
+                <p>70%</p>
+            </div>
+        </section>
+        
+        <!-- Educational Resources -->
+        <section class="resources">
+            <h2>Educational Resources</h2>
+            <div class="resource">
+                <h3>Tips for Reducing Food Waste</h3>
+                <p>Learn best practices for minimizing food waste at home and in businesses.</p>
+            </div>
+            <div class="resource">
+                <h3>How-To Guides</h3>
+                <p>Instructions on separating and preparing food waste for recycling.</p>
+            </div>
+        </section>
+        
+        <!-- Alerts and Notifications -->
+        <section class="alerts-notifications">
+            <h2>Alerts & Notifications</h2>
+            <div class="alert">
+                <p>Next collection date: July 30, 2024</p>
+            </div>
+            <div class="alert">
+                <p>New recycling program regulations coming in August 2024.</p>
+            </div>
+        </section>
+        
+        <!-- Feedback and Suggestions -->
+        <section class="feedback-suggestions">
+            <h2>Feedback & Suggestions</h2>
+            <form>
+                <textarea placeholder="Share your feedback or suggestions..."></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
